@@ -34,3 +34,30 @@ To use the script, run it from PowerShell with the following command:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File "C:\sunshine_commands\start_game.ps1" -processName "Blasphemous 2.exe" -gameLauncherPath "C:\Games\Blasphemous 2\Blasphemous 2.exe"
+```
+
+### Pause Game
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "C:\sunshine_commands\pause_game.ps1" -processName "Blasphemous 2.exe"
+```
+
+### Task Manager
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "C:\sunshine_commands\task_manager.ps1"
+```
+
+### Steam
+
+Pause
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "C:\sunshine_commands\pause_steam.ps1"
+```
+
+Resume
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "C:\sunshine_commands\resume_steam.ps1"
+```
